@@ -1,0 +1,8 @@
+@isTest
+public class VehicleGasolineCalculatorTest {
+	@isTest
+    public static void consumeOK() {
+        Decimal consume = VehicleGasolineCalculator.calculateConsumo(100, 200, 100);
+        System.assert(consume == 1, 'Consumo errado. Valor calculado:' + consume + '. Mas retornou: '+ consume);
+    }
+}
