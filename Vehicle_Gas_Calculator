@@ -1,0 +1,6 @@
+public class VehicleGasolineCalculator {    
+    public static Decimal calculateConsumo(Decimal startKM, Decimal endKM, Decimal liters) {
+        return (endKM - startKM) / liters;
+    }
+}
+
