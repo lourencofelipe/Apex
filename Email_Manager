@@ -37,8 +37,8 @@ public class EmailManager {
       return sendResult;
     }
 }
-//Open this in the anonymous window at the Debug 
-//Remember that this mode is not using a static mode
+//Open this in the anonymous window at the Debug and execute. 
+//Remember that this mode is not using a static mode.
 EmailManager em = new EmailManager();
 em.sendMail('Your email address', 'Title', 'body');
 
